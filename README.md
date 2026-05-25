@@ -5,15 +5,15 @@ TypeScript client for calling AI services through [TurboAPI](https://turboapi.ai
 ## Installation
 
 ```bash
-npm install @turboapi/sdk
+npm install @turboapiai/sdk
 # or
-pnpm add @turboapi/sdk
+pnpm add @turboapiai/sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { TurboAPIClient } from '@turboapi/sdk';
+import { TurboAPIClient } from '@turboapiai/sdk';
 
 const client = new TurboAPIClient({ apiKey: 'tbp_your_api_key' });
 
@@ -93,7 +93,7 @@ const client = new TurboAPIClient({
 ## Error Handling
 
 ```typescript
-import { AuthenticationError, RateLimitError, NotFoundError, TimeoutError } from '@turboapi/sdk';
+import { AuthenticationError, RateLimitError, NotFoundError, TimeoutError } from '@turboapiai/sdk';
 
 try {
   const result = await client.call.createAndWait('some-api', { key: 'value' });

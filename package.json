@@ -1,5 +1,5 @@
 {
-  "name": "@turboapi/sdk",
+  "name": "@turboapiai/sdk",
   "version": "0.1.0",
   "description": "TurboAPI SDK - Call AI services through the TurboAPI platform",
   "type": "module",
