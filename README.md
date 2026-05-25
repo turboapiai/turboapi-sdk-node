@@ -61,7 +61,7 @@ console.log(`API: ${detail.name} — ${detail.description}`);
 ```typescript
 const client = new TurboAPIClient({
   apiKey: 'tbp_xxxxx',
-  baseURL?: 'https://turboapi.ai/api/v1',
+  baseURL?: 'https://api.turboapi.ai/api/v1',
 });
 ```
 

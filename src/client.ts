@@ -16,13 +16,13 @@ import {
   TurboAPIError,
 } from './errors';
 
-const DEFAULT_BASE_URL = 'https://turboapi.ai/api/v1';
+const DEFAULT_BASE_URL = 'https://api.turboapi.ai/api/v1';
 
 /** Options passed when creating a TurboAPIClient. */
 export interface ClientOptions {
   /** TurboAPI API key. */
   apiKey?: string;
-  /** Base URL for the TurboAPI backend. Defaults to https://turboapi.ai/api/v1. */
+  /** Base URL for the TurboAPI backend. Defaults to https://api.turboapi.ai/api/v1. */
   baseURL?: string;
 }
 
